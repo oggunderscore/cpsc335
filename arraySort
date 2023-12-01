@@ -1,0 +1,45 @@
+def bubble_sort(array):
+  for i in range(len(array) - 1):
+    for j in range(len(array) - i - 1):
+      if array[j] > array[j + 1]:
+        array[j], array[j + 1] = array[j + 1], array[j]
+  return array
+
+def main():
+    list = [5,3,2,5]
+    bubble_sort(list)
+    print(list)
+    
+main()
+
+""" Problem Definition
+
+    Input: Array of integers
+    Output: Sorted Array of Integers least to greatest
+
+Pseudocode
+
+    Take in unsorted array of integers
+    Sort it using bubblesort algorithm method
+
+    procedure bubbleSort(A: list of sortable items)
+        n = length(A)
+        for i from 0 to n - 1
+            for j from 0 to n - i - 2
+                if A[j] > A[j + 1]
+                    swap A[j] and A[j + 1]
+                end if
+            end for
+        end for
+    end procedure
+
+    return sorted array
+
+Time Complexity
+    O(n^2)
+    
+Order of Growth
+    Quadratic
+    
+    
+"""
