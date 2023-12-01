@@ -1,3 +1,6 @@
+# Developed by Kevin Nguyen
+# CPSC 335 - Algorithms
+
 """
 Function to return the total max stocks purchasable
 params;
