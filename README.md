@@ -1,7 +1,5 @@
 # CPSC 335 - Algorithms
 
----
-
 #### Project 1 - Implementing Algorithms
 
 ##### Matching Group Schedules
