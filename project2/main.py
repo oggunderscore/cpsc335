@@ -74,9 +74,9 @@ def main():
     # Open output.txt with w perms
     output_file = open("output.txt", "w")
 
-    for i, (N, stocks_and_values, amount) in enumerate(test_cases, start=1):
+    for i, (n, stocks_and_values, amount) in enumerate(test_cases, start=1):
         # Run calculation algorithm
-        output = stock_purchase_maximization(N, stocks_and_values, amount)
+        output = stock_purchase_maximization(n, stocks_and_values, amount)
         print(f"Test Case {i}: {output}")
 
         # Write to the file
